@@ -1,0 +1,24 @@
+{
+  "name": "nodejstest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run serve",
+    "build-ts": "./node_modules/typescript/bin/tsc",
+    "watch-ts": "./node_modules/typescript/bin/tsc -w",
+    "serve": "node dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^10.11.3",
+    "typescript": "^3.1.1"
+  },
+  "dependencies": {
+    "@types/dotenv": "^4.0.3",
+    "axios": "^0.18.0",
+    "dotenv": "^6.0.0"
+  }
+}
